@@ -1,0 +1,17 @@
+class Person {
+    private String name;
+    private int age;
+
+    // Default constructor
+    public Person() {
+        // Default values for name and age
+        name = "Unknown";
+        age = 0;
+    }
+
+    // Parameterized constructor
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+}
